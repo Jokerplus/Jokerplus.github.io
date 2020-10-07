@@ -2,13 +2,11 @@ body {
     font-size: 18px;
     color: #6c767d;
     background-color: #ebf1f5;
-    background-image: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg);
+    background-image: url(https://i.loli.net/2020/09/14/v4Si8BIupOVcwm6.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
     min-height: 800px;
 }
 
@@ -156,10 +154,7 @@ footer p {
     font-size: 12px;
 }
 
-#kaygb-blog-a {
-    display: block;
-}
-
+#kaygb-blog-a,
 #kaygb-mail-a {
     display: none;
 }
