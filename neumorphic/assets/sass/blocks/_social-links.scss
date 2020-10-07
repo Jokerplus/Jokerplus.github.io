@@ -1,0 +1,74 @@
+/*----------------------
+# Social Icons
+----------------------*/
+
+.wp-block-social-links {
+
+	flex-wrap: wrap;
+	margin-bottom: 2em;
+	padding: 0;
+
+	@include mq(md-max) {
+		justify-content: center;
+	}
+
+	&.aligncenter {
+		display: flex !important;
+	}
+
+	> li {
+		margin: 0 0.5em 0.5em 0;
+	}
+
+	&.is-style-nm {
+		font-size: 1.3em;
+
+		> li {
+			margin: 0 15px 15px 0;
+		}
+
+		.wp-social-link {
+			width: auto;
+			height: auto;
+			border-radius: 50%;
+
+			&:hover {
+				transform: none;
+			}
+
+			a {
+
+				position: relative;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 2em;
+				height: 2em;
+				padding: 0;
+				border-radius: 50%;
+
+				&::before {
+
+					@include nm;
+					position: absolute;
+					top: -3px;
+					right: -3px;
+					bottom: -3px;
+					left: -3px;
+					border-radius: inherit;
+					content: "";
+				}
+
+				&:hover::before {
+
+					@include nm-light;
+				}
+
+				&:active::before {
+
+					@include nm-active;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+/*------------------------------------------
+## Embeds
+------------------------------------------*/
+
+.wp-block-embed {
+
+	// YouTube
+	&-youtube iframe {
+
+		@include nm-media;
+	}
+
+	// Facebook
+	&-facebook {
+		max-width: 500px;
+
+		.components-placeholder {
+
+			@include nm-media;
+			padding: 1em;
+		}
+	}
+
+	// Instagram
+	&-instagram {
+		max-width: 500px;
+
+		iframe {
+
+			@include nm-media;
+		}
+	}
+
+	// Twitter
+	&-twitter {
+		max-width: 500px;
+
+		iframe {
+
+			@include nm-media;
+		}
+	}
+}
+
+[data-align="left"],
+[data-align="right"] {
+
+	.wp-block-embed {
+		width: 100%;
+		max-width: 500px;
+	}
+}
+
+[data-align="center"] {
+
+	.wp-block-embed {
+
+		&-facebook,
+		&-instagram,
+		&-twitter {
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+}
