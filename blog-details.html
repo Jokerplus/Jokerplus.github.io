@@ -1,0 +1,459 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Title -->
+      <title>Alum - Responsive HTML Site Template</title>
+      <!-- Favicon -->
+      
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!--Responsive Menu  CSS -->
+      <link rel="stylesheet" href="assets/css/responsive-menu.css" />
+      <!-- lightbox CSS -->
+      <link rel="stylesheet" href="assets/css/lightbox.min.css">
+      <!-- Prism CSS -->
+      <link rel="stylesheet" href="assets/css/prism.css">
+      <!-- Owl carousel CSS -->
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+      <!-- Font awesome CSS -->
+      <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+      <!-- Aos CSS -->
+      <link rel="stylesheet" href="assets/css/aos.css">
+      <!-- Main CSS -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- Google font -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+   </head>
+   <body>
+      <!-- ==================== PRELOADER HERE ===================================== -->
+      <div class="overlay-loader">
+         <img src="assets/images/805.gif" alt="loader" />
+      </div>
+      <!-- ==================== PRELOADER END ===================================== -->
+      <!-- ======================== START HEADER AREA HERE ====================================== -->
+      <header class="themeix-header  clearfix">
+         <div class="themeix-header-navigation bg-color">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="themeix-navbar">
+                        <div class="themeix-logo float-left">
+                           <a class="themeix-brand" href="index.html"><img src="assets/images/logo.png" alt="Header Logo"></a>
+                        </div>
+                        <div class="header-container highlight">
+                             <nav class="themeix-menu float-right">
+                              <ul id="navigation-menu" class="slimmenu">
+                                 <li class="has-submenu">
+                                    <a href="index.html">Home</a>
+                                    <ul>
+                                       <li><a href="index.html">Home 1</a></li>
+                                       <li><a href="index2.html">Home 2</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="about.html">About</a></li>
+                                 <li class="has-submenu">
+                                    <a href="#">Page</a>
+                                    <ul>
+                                       <li><a href="author.html">Author</a></li>
+                                       <li><a href="authors.html">Authors</a></li>
+                                       <li><a href="tag.html">Tag</a></li>
+                                       <li><a href="tags.html">Tags</a></li>
+                                       <li><a href="404.html">404 Page</a> </li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="guide.html">Style Guide</a></li>
+                                 <li><a href="contact.html">Contact</a></li>
+                              </ul>
+                              <div class="navigation-sidebar">
+							      <img src="assets/images/search-img.png" alt="search-img" class="search-img" id="search-btn" />
+							      <button class="openbtn" onclick="openNav()"><img src="assets/images/menu-icon.png" alt="menu-icon" /></button>
+							  </div>
+                           </nav>
+						    <div id="search-overlay" class="block">
+                                 <div class="centered">
+                                    <div id="search-box">
+                                       <i id="close-btn" class="fa fa-times fa-2x"></i>
+                                       <form action="/search" id="search-form" method="get" target="_top">
+                                          <div class="input-group">
+                                             <input id="search-text" name="q" placeholder="Search Here" type="text" />
+                                             <div class="input-group-prepend">
+                                                <button id="search-button" type="submit">
+                                                <span><i class="fa fa-search"></i></span>
+                                                </button>
+                                             </div>
+                                          </div>
+                                       </form>
+                                    </div>
+                                 </div>
+                              </div>
+                           <div id="mySidepanel" class="sidepanel">
+                              <ul class="list-inline pt-4">
+                                 <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                                 <li><a href="#">Adverting</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Terms of Service</a></li>
+                                 <li><a href="#">FAQ</a></li>
+                            
+                              </ul>
+                           </div>
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header-bottom page-title">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-9 mx-auto">
+                     <div class="header-text text-center">
+                        <span>16 december, 2018</span>
+                        <h1 class="heading-1 mb-5 pt-1" data-aos="zoom-in">When you want to add a quote in Markdown same as the formatting</h1>
+                        <div class="themeix-author">
+                           <a href="author.html"><img src="assets/images/author-01.png" alt="author" /></a>
+                           <h4 class="heading-4 pt-2 pb-3"><a href="author.html">Kim Kuphal</a><span>Admin</span></h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header-shape">
+            <img class="shape1" src="assets/images/Shape_01.png" alt="shape animated"/>
+            <img class="shape2" src="assets/images/Shape_02.png" alt="shape animated"/>
+            <img class="shape3" src="assets/images/Shape_03.png" alt="shape animated"/>
+         </div>
+      </header>
+      <!-- ======================== END HEADER AREA HERE ================================= -->
+      <!-- =================== START MAIN CONTENT AREA HERE ========================-->
+      <main class="main-content-area section-padding-bottom">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="row">
+                     <div class="col-md-10 mx-auto n-margin">
+                        <div class="entry-content">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                           <h3 class="heading-3">Structured data & SEO</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+					<pre class=" language-javascript mb-60"><code class=" language-javascript"><span class="token punctuation">{</span>
+	<span class="token string">'latex-equation'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+		pattern<span class="token punctuation">:</span> <span class="token regex">/\$(\\?.)*?\$/g</span><span class="token punctuation">,</span>
+		alias<span class="token punctuation">:</span> <span class="token string">'string'</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>	   
+						   
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                           <figure class="image-medium"><img src="assets/images/blog-img-01.jpg" alt="blog-img" /></figure>
+                           <h3 class="heading-3">Brazil Yellow Fever Outbreak</h3>
+                           <p>Back gees frterd or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:</p>
+                           <p>Blog dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.</p>
+                           <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. </p>
+                           <figure class="galery-image d-flex align-items-stretch">
+							<div><a href="assets/images/img-1.jpg" data-lightbox="gallery-popup"><img src="assets/images/img-1.jpg" alt="" /></a></div>
+							<div><a href="assets/images/img-2.jpg" data-lightbox="gallery-popup"><img src="assets/images/img-2.jpg" alt="" /></a></div>
+						  </figure>
+						<figure class="galery-image d-flex align-items-stretch">
+							<div><a href="assets/images/img-3.jpg" data-lightbox="gallery-popup"><img src="assets/images/img-3.jpg" alt="" /></a></div>
+							<div><a href="assets/images/img-4.jpg" data-lightbox="gallery-popup"><img src="assets/images/img-4.jpg" alt="" /></a></div>
+						  </figure>
+                           <p>Bibendum litora a risus, nibh orci. Condimentum facilisis amet, lacus a id et urna orci. abitur aptent, molestie ligula sit amet in. Feugilputate, dolor eget massa consecNeque auctor mi orci sem ultrices, facilisis metus. Mollis <a href="#">ultrices turpis quam,</a>varius vestibulum, lacus habitasse erat duis in curabitur suspendisse, lobortis dui dolor non sollicitudin et, dictum sed nullam ipsum est, a metus elit etiam libero pellentesque. Pulvinar sed elementum impedit quis ligula, praesentium in eget accumsan aenean maecenas mauris, dictum amet augue. Dictum odio massa faucibus in fermentum, lorem in morbi urna pulvinar praesent. Wisi sollicitudin aliquam, sodales quis ultrices proin ligula ipsum urna, nunc viverra duis feugiat, cursus integer, pretium suspendisse. Suspendisse minima, leo condimentum etiam proin sem purus. Dui at vestibulum placerat odio non. Suscipit quis sem et cum nulla,</p>
+                           <p>Sed sed pellentesque lacinia quam pellentesque ante, condimentum consectetuer. Dolor vulputate eget quisque voluptas eget, lacinia convallis egestas, ac in ultricies pharetra. Imperdiet dignissim sodales nullam, metus dictumst volutpat, lacus nulla quis justo, vel eu <a href="#">platea morbi sodales</a></p>
+                           <blockquote>
+                              <p>Blog dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incut labore The purpose of lorem ipsum is to create a natural looking block of text (sentence graph, page, etc.) that doesn't distract from the layout. A practice not without controve</p>
+                           </blockquote>
+                           <figure><img src="assets/images/post-06.jpg" alt="blog-image" /></figure>
+                           <p>Vivamus justo posuere cras mus class eu turpis mus ante habitasse pharetra pretium nisl habitant vel luctus odio ut ac magnis facilisi pharetra tortor malesuada in sed cras ligula class mus nunc. Dolor. Curabitur inceptos tellus feugiat class mauris, lobortis imperdiet eros nullam facilisi augue diam. Mauris cras semper lobortis, ante erat quam montes sociosqu hendrerit lacinia sociosqu metus eleifend penatibus cras condimentum venenatis ipsum eget tempus lectus dictumst neque. Augue dapibus. Quisque erat cum accumsan. Elit, nec litora eget pharetra Mi tempus. Ultrices leo nascetur penatibus semper, porta vel adipiscing. Viverra duis, dolor nisi aliquam erat non nonummy duis.</p>
+                           <p>ringilla, eget sociosqu. Litora rhoncus elementum lobortis. Morbi ad penatibus eros sodales eget pellentesque nulla fermentum blandit. Ornare condimentum ipsum pulvinar hymenaeos. Senectus class torquent convallis. Aptent in nisi netus mauris justo. Condimentum condimentum aptent habitasse rutrum. Iaculis habitasse risus. Pharetra pede.Dolor ullamcorper etiam aliquam odio faucibus, morbi velit sem sit, inventore curabitur. Nunc sit non vitae cras donec lorem, sit wisi accumsan erat, tincidunt hendrerit, viverra fugit vestibulum integer vel, lectus porttitor elit suspendisse posuere. Sed in eu quam sed ultrices, vivamus vivamus dictum, quam facilisis sit. Suspendisse ut. Mus elit ante vel, arcu quam convallis id adipiscing dolor sit. Quam ullamcorper suspendisse, eros curabitur id pede rerum, eu erat vel quis sed, dolor senectus. Non mus elementum, interdum eu integer quisque tincidunt wisi, urna orci mauris, massa nec. Integer justo, tellus quis wisi facilisis a mi ipsum. Suspendisse enim urna varius sapien, metus quis tincidunt risus ipsum in, aenean erat nibh, nonummy </p>
+                           <!-- <figure class="fluid-image"> -->
+						      <!-- <img src="assets/images/fluid-image.jpg" alt="eofe"/> -->
+                           <!-- </figure> -->
+                           <p>Vivamus justo posuere cras mus class eu turpis mus ante habitasse pharetra pretium nisl habitant vel luctus odio ut ac magnis facilisi pharetra tortor malesuada in sed cras ligula class mus nunc. Dolor. Curabitur inceptos tellus feugiat class mauris, lobortis imperdiet eros nullam facilisi augue diam. Mauris cras semper lobortis, ante erat quam montes sociosqu hendrerit lacinia sociosqu metus eleifend penatibus cras condimentum venenatis ipsum eget tempus lectus dictumst neque. Augue dapibus. Quisque erat cum accumsan. Elit, nec litora eget pharetra Mi tempus. Ultrices leo nascetur penatibus semper, porta vel adipiscing. Viverra duis, dolor nisi aliquam erat non nonummy duis.</p>
+                           <p>ringilla, eget sociosqu. Litora rhoncus elementum lobortis. Morbi ad penatibus eros sodales eget pellentesque nulla fermentum blandit. Ornare condimentum ipsum pulvinar hymenaeos. Senectus class torquent convallis. Aptent in nisi netus mauris justo. Condimentum condimentum aptent habitasse rutrum.</p>
+                        </div>
+                        <div class="tags-social-meta mb-5 row">
+                           <div class="col-md-6">
+                              <div class="tags">
+                                 <span class="float-left"><i class="fa fa-tag" aria-hidden="true"></i> Tags:</span>
+                                 <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="tag.html">Education</a></li>
+                                    <li class="list-inline-item"><a href="tag.html">Design</a></li>
+                                    <li class="list-inline-item"><a href="tag.html">Travel</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="social-icon float-md-right">
+                                 <span class="float-left">Share:</span>
+                                 <ul class="list-inline float-left">
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="author-bio-details mb-5 text-center">
+                           <div class="meta-info">
+                              <div class="author-pic">
+                                 <a href="#"><img src="assets/images/author-06.png" alt="" /></a>
+                              </div>
+                              <div class="a-title mt-2 mb-2">
+                                 <p><a href="author.html"><strong>Robin Binar</strong></a><span>Themeix</span></p>
+                              </div>
+                              <p>Onubia, turpis inceptos pharetra. Ipsum erat rutrum, luctus non rhoncus quam quisque posuere, eros pede leo facilisis at risus. Ea sit consectetuer suscipit pede hac purus, erat nec</p>
+                              <div class="social-icon mt-3">
+                                 <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="post-pagination mb-5">
+                           <ul class="d-flex justify-content-between">
+                              <li><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                        <div class="latest-post mb-5">
+                           <div class="section-title text-center mb-3">
+                              <h3 class="heading-3">You Might Be Interested In</h3>
+                           </div>
+                           <div class="post-carousel owl-carousel">
+                              <div class="single-post">
+                                 <div class="post-thumb">
+                                    <a href="blog-details.html"><img src="assets/images/post-04.jpg" alt="post" /></a>
+                                 </div>
+                                 <div class="blog-meta mt-3">
+                                    <p>16 March, 2019</p>
+                                    <p>2 min read</p>
+                                 </div>
+                                 <div class="blog-title pt-1">
+                                    <h4 class="heading-4"><a href="blog-details.html">An opaque array of tax breaks extinct magnaliqua</a></h4>
+                                 </div>
+                              </div>
+                              <div class="single-post">
+                                 <div class="post-thumb">
+                                    <a href="blog-details.html"><img src="assets/images/post-02.jpg" alt="post" /></a>
+                                 </div>
+                                 <div class="blog-meta mt-3">
+                                    <p>16 March, 2019</p>
+                                    <p>2 min read</p>
+                                 </div>
+                                 <div class="blog-title pt-1">
+                                    <h4 class="heading-4"><a href="blog-details.html">Malcolm toon made waves as a diplomat but his </a></h4>
+                                 </div>
+                              </div>
+ 
+                              <div class="single-post">
+                                 <div class="post-thumb">
+                                    <a href="blog-details.html"><img src="assets/images/post-05.jpg" alt="post" /></a>
+                                 </div>
+                                 <div class="blog-meta mt-3">
+                                    <p>16 March, 2019</p>
+                                    <p>2 min read</p>
+                                 </div>
+                                 <div class="blog-title pt-1">
+                                    <h4 class="heading-4"><a href="blog-details.html">Shinzo abe announces plan to revise japan</a></h4>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="comment-wrapper mb-5">
+                           <div class="section-title pb-3">
+                              <h3 class="heading-3">03 Comments</h3>
+                           </div>
+                           <div class="themeix-comments">
+                              <div class="comments-details">
+                                 <div class="author-image">
+                                    <a href="author.html"><img src="assets/images/author-1.png" alt="" /></a>
+                                 </div>
+                                 <div class="comment-text  pb-5">
+                                    <div class="c-title">
+                                       <p><a href="author.html">Ray Clarke</a> <span class="ml-1">18 May, 2019</span></p>
+                                    </div>
+                                    <div class="c-content">
+                                       <p>Circumstances and owing to the claims of duty or the obligations dislike men who are so beguiled and demoralized by the charms of pleasure they cannot</p>
+                                    </div>
+                                    <div class="reply"> <span><a href="#">Reply</a></span></div>
+                                 </div>
+                              </div>
+                              <div class="comments-details">
+                                 <div class="reply-comment ml-5">
+                                    <div class="author-image">
+                                       <a href="author.html"><img src="assets/images/author-2.png" alt="" /></a>
+                                    </div>
+                                    <div class="comment-text  pb-5">
+                                       <div class="c-title">
+                                          <p><a href="author.html">Lars Sambo</a> <span class="ml-1">12 May, 2019</span></p>
+                                       </div>
+                                       <div class="c-content">
+                                          <p>Duty or the obligations dislike men who are so beguiled and demoralized by the charms of pleasure they cannot</p>
+                                       </div>
+                                       <div class="reply"> <span><a href="#">Reply</a></span></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="comments-details">
+                                 <div class="author-image">
+                                    <a href="author.html"><img src="assets/images/author-3.png" alt="" /></a>
+                                 </div>
+                                 <div class="comment-text  pb-5">
+                                    <div class="c-title">
+                                       <p><a href="author.html">Ray Clarke</a> <span class="ml-1">02 May, 2019</span></p>
+                                    </div>
+                                    <div class="c-content">
+                                       <p>Circumstances and owing to the claims of duty or the obligations dislike men who are so beguiled and demoralized by the charms of pleasure they cannot</p>
+                                    </div>
+                                    <div class="reply"> <span><a href="#">Reply</a></span></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="comment-wrapper">
+                           <div class="section-title mb-4 mt-4">
+                              <h3 class="heading-3">Post a Comment</h3>
+                           </div>
+                           <div class="comment-form">
+                                 <form action="#">                                    
+                                       <div class="form-row">
+									      <div class="col-md-6">
+										  <div class="input-group"><input type="text" placeholder="Your Name" /></div>
+										</div>
+										<div class="col-md-6">
+										  <div class="input-group"><input type="text" placeholder="Your Email" class="float-right" /></div>
+										</div>
+									  </div>
+									   <div class="form-row"><div class="col-md-12"><div class="form-group"><textarea  placeholder="Type Comment"></textarea></div></div></div>
+                                    
+                                       <div class="form-row"><button type="submit" class="btn-submit mt-2">Add Comment</button></div>
+                                 </form>								 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <!-- ======================== END MAIN CONTENT AREA HERE ========================-->
+      <!-- ==================== START FOOTER AREA ===================================== -->
+      <footer>
+         <div class="footer-area clearfix ">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <div class="footer-widget">
+                              <div class="footer-logo-img pb-3">
+								<a href="index.html"><img src="assets/images/footer-logo.png" alt="footer-logo" /></a>
+							  </div>
+                              <div class="widget-details">
+                                 <p>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis nibh.d ultricies ante vitae
+                                 </p>
+                                 <div class="social-icon">
+                                    <ul class="list-inline">
+                                       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                       <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                       <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="offset-lg-1 col-lg-5 col-sm-6">
+                           <div class="footer-widget">
+                              <div class="widget-title">
+                                 <h3>Useful Link
+                                 </h3>
+                              </div>
+                              <div class="widget-details">
+                                 <div class="widget-link">
+                                    <ul>
+                                       <li><a href="authors.html">Authors</a></li>
+                                       <li><a href="contact.html">Contact Us</a></li>
+                                       <li><a href="about.html">About Us</a></li>
+                                       <li><a href="guide.html">Style Guides</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="row">
+                        <div class="offset-lg-1 col-lg-5 col-sm-6">
+                           <div class="footer-widget">
+                              <div class="widget-title">
+                                 <h3>Tags Cloud
+                                 </h3>
+                              </div>
+                              <div class="widget-details  footer-tags">
+                                 <ul>
+                                    <li><a href="tag.html">Travel</a>,</li>
+                                    <li><a href="tag.html">Clean</a>,</li>
+                                    <li><a href="tag.html">Web</a>,</li>
+                                    <li><a href="tag.html">Design</a>,</li>
+                                    <li><a href="tag.html">Html</a>,</li>
+                                    <li><a href="tag.html">Video</a>,</li>
+                                    <li><a href="tag.html">History</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6  col-sm-6">
+                           <div class="footer-widget m-0">
+                              <div class="widget-title">
+                                 <h3>Subscribe Us</h3>
+                              </div>
+                              <div class="widget-details">
+                                 <form action="#">
+                                    <input type="email" placeholder="Email Adress" />
+                                    <button type="submit">Subscribe</button>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col">
+                     <div class="footer-bottom text-center">
+                        <p>Copyright - Alum 2019 Designed by <a href="http://bootstrapmb.com">Themeix</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- ==================== END FOOTER AREA HERE ===================================== -->
+      <!-- ====================ALL JS FILE HERE===================================== -->
+      <!-- jQuery -->
+      <script src="assets/js/jquery-3.3.1.min.js"></script>
+      <!-- Bootstrap JS -->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- responsive-menu. -->
+      <script src="assets/js/responsive-menu.js"></script>
+      <!-- scrollUp  JS -->
+      <script src="assets/js/jquery.scrollUp.min.js"></script>
+      <!-- lightbox js -->
+      <script src="assets/js/lightbox.min.js"></script>
+      <!-- carousel js -->
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <!-- wow JS -->
+      <script src="assets/js/aos.min.js"></script>
+      <!-- main  JS -->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
